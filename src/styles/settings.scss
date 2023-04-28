@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Alata, sans-serif;
+}
+
+body {
+  max-width: 1700px !important;
+  margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background: rgb(155, 5, 242);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: violet;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.acTive {
+  color: blue;
+  border-bottom: 1px solid blue;
+  padding-bottom: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}

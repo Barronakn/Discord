@@ -1,0 +1,89 @@
+.nitros {
+  color: white;
+  top: 110%;
+  gap: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nitros h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nitros li img {
+  width: 20px;
+  height: 20px;
+}
+
+.nitros li {
+  display: flex;
+  gap: 10px;
+}
+
+.nitro-basic {
+  background: linear-gradient(225deg, #007cc2 20%, #5865f2);
+}
+.nitro {
+  background: linear-gradient(135deg, #8547c6 25%, #b845c1 62%, #ab5d8a 95%);
+}
+
+.nitro-basic,
+.nitro {
+  width: 600px;
+  height: 400px;
+  padding: 30px;
+}
+
+// ---------
+
+@media screen and (max-width: 1228px) {
+  .nitros {
+    flex-direction: column;
+    position: relative;
+    margin-top: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .nitro-basic,
+  .nitro {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .nitro-basic,
+  .nitro {
+    width: 400px;
+    height: 500px;
+  }
+
+  .nitros {
+    margin-top: 600px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nitro-basic,
+  .nitro {
+    width: 300px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nitro-basic,
+  .nitro {
+    width: 200px;
+    height: 650px;
+  }
+
+  .nitros {
+    margin-top: 650px;
+  }
+}

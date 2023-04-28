@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.footer .footerBottom {
+  border-top: 1px solid blue;
+}
+.bg-black-500 {
+  background-color: #23272a;
+}
+.footer select {
+  background: none;
+  color: white;
+}
+.footer select option {
+  background: #000;
+}
+.footer .footerTop .imagine {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 10px;
+}
+
+@media screen and (max-width: 920px) {
+  .footer .footer_1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footerTop {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer .footerBottom {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footerBottom .bg-blue-500 {
+    padding-top: 4px;
+  }
+
+  .footer .footerTop .imagine {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer .footerTop .images {
+    margin-left: -30px;
+  }
+}

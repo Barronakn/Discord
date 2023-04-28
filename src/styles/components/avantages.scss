@@ -1,0 +1,69 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin: 50px 8%;
+}
+.cards .card {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .avantages {
+    margin-top: -300px;
+  }
+  .cards {
+    margin-top: 50px;
+    grid-template-columns: 1fr;
+  }
+  .cards .card {
+    margin: 0;
+  }
+  .cards .card img {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cards {
+    margin: 0 auto;
+    margin-top: 35px;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+  .cards .card {
+    margin: 0 auto;
+    width: 300px;
+    padding: 25px 25px;
+  }
+  .cards .card h1 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .avantages h1 {
+    font-size: 35px;
+  }
+  .avantages .text-center a {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .cards .card {
+    width: 250px;
+    padding: 15px 15px;
+  }
+  .cards .card h1 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .avantages {
+    margin-top: -500px;
+  }
+}

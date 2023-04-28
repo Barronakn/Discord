@@ -1,0 +1,102 @@
+.navigation video {
+  max-width: 100%;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+@media screen and (max-width: 1128px) {
+  .navigation .menu-text h1 {
+    font-size: 35px;
+  }
+  .navigation .menu-text p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 956px) {
+  .nav ul {
+    flex-direction: column;
+    position: absolute;
+    background-color: #424242;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 200px;
+    z-index: 100;
+  }
+
+  body {
+    z-index: 0;
+  }
+
+  .menuLogo,
+  .delete {
+    display: block;
+    z-index: 50;
+  }
+
+  .nn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 942px) {
+  .navigation .menu-text {
+    width: 55%;
+    margin-top: 150px;
+    left: 50px;
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .navigation .menu-text {
+    width: 50%;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation .menu-text {
+    width: 100%;
+    top: 0;
+    margin-top: 350px;
+    left: 0;
+    text-align: center;
+  }
+
+  .navigation .menu-text p {
+    text-align: center;
+    width: 100%;
+    padding: 25px;
+  }
+
+  .navigation video {
+    height: 150vh;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .navigation .menu-text h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .navigation .menu-text h1,
+  .navigation .menu-text p {
+    padding: 10px;
+  }
+}

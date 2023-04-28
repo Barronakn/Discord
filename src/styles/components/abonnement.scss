@@ -1,0 +1,139 @@
+.abonnement {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.abonnement .list {
+  margin: auto 8%;
+}
+.abonnement .choice {
+  margin: 0 auto;
+}
+.abonnement .flex {
+  justify-content: space-between;
+  border-bottom: 1px solid #ababab;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.abonnement .afonction {
+  width: 50%;
+}
+
+.abonnement .cadre {
+  border: 2px solid #b845c1;
+  border-radius: 10px;
+  height: 1300px;
+  width: 210px;
+}
+
+.abonnement .border-bottom {
+  border-bottom: none;
+}
+
+@media screen and (max-width: 1175px) {
+  .anitro_basic,
+  .anitro {
+    width: 70px;
+  }
+
+  .anitro_basic {
+    margin-left: 0;
+  }
+
+  .flex .anitro {
+    margin-right: 10px;
+  }
+
+  .abonnement .cadre,
+  .abonnement .most {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .abonnement .cadre {
+    width: 170px;
+  }
+  .abonnement .most {
+    right: 2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .abonnement .most,
+  .abonnement .fonction {
+    display: none;
+  }
+  .abonnement .choice {
+    font-size: 25px;
+    width: 100%;
+  }
+  .abonnement .afonction h1 {
+    font-size: 15px;
+  }
+  .abonnement .anitro_basic,
+  .abonnement .anitro {
+    width: 15px;
+  }
+  .abonnement .layer {
+    width: 50px;
+  }
+  .abonnement p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .border-bottom {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ml-24 img {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .abonnement .layer {
+    width: 30px;
+  }
+  .ml-24 img {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .abonnement .anitro {
+    margin-right: 0;
+  }
+  .abonnement .list .gap-10 {
+    gap: 15px;
+  }
+  .abonnement .afonction h1 {
+    font-size: 12px;
+  }
+  .abonnement .list {
+    margin: auto 12%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .abonnement .layer {
+    width: 35px;
+  }
+
+  .ml-24 img {
+    margin-left: 20px;
+  }
+
+  .list .mt-28 {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .abonnement .choice {
+    font-size: 20px;
+  }
+}

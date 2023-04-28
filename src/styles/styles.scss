@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "settings.scss";
+@import "./components/navigation.scss";
+@import "./components/nitro.scss";
+@import "./components/avantages.scss";
+@import "./components/abonnementList.scss";
+@import "./components/abonnement.scss";
+@import "./components/quiz.scss";
+@import "./components/abonner.scss";
+@import "./components/footer.scss";
